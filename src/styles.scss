@@ -12,6 +12,9 @@ $headerfont: 'Rowdies';
 
 body {
   background-color: #bdbdbd;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
 }
 
 @font-face {
