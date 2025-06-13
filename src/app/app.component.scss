@@ -1,0 +1,57 @@
+$primary-color: #3e2622;
+$secondary-color: #6b4c3b;
+$success-color: #a67c52;
+
+$title-color: #ffde58;
+$text-color: #ffffff;
+
+$textfont: 'Ruda';
+$headerfont: 'Rowdies';
+
+
+.game{
+    min-height: 500px;
+    background-color: $primary-color;
+    color: $text-color;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-header {
+    display: flex;
+    width: 100%;
+    height: 10%;
+
+
+}
+.game-title {
+    font-family: $headerfont;
+    color: $title-color;
+    text-align: center;
+    width: 90%;
+
+
+}
+
+.game-nav {
+    width: 10%;
+    height: 100%;
+    background-color: $secondary-color;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.game-task {
+    background-color: $secondary-color;
+    color: $text-color;
+    padding: 10px;
+    height: 45%;
+}
+.game-control {
+    background-color: $success-color;
+    color: $text-color;
+    padding: 10px;
+    height: 45%;
+}

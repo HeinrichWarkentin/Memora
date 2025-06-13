@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+$primary-color: #3e2622;
+$secondary-color: #6b4c3b;
+$success-color: #a67c52;
+
+$title-color: #ffde58;
+$text-color: #ffffff;
+
+$textfont: 'Ruda';
+$headerfont: 'Rowdies';
+
+body {
+  background-color: #bdbdbd;
+}
+
+@font-face {
+    font-family: 'Ruda';
+    src: url('/assets/fonts/Ruda/Ruda-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rowdies';
+    src: url('/assets/fonts/Rowdies/Rowdies-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Irgendwie funktionirten globale Variablen nicht */
