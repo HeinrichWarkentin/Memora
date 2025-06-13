@@ -9,4 +9,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'Memora';
+
+  isChanged = false;
+  toggleNavIcon() {
+    this.isChanged = !this.isChanged;
+  }
 }

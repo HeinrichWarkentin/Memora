@@ -50,6 +50,35 @@ $headerfont: 'Rowdies';
     border-radius: 10px;
     margin: 10px;
 }
+.nav-icon {
+    cursor: pointer;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.nav-icon-bar1, .nav-icon-bar2, .nav-icon-bar3 {
+  width: 70%;
+  height: 10%;
+  background-color:  $title-color;
+  transition: 0.4s;
+}
+.change .nav-icon-bar1 {
+  transform: translate(0, 270%) rotate(-45deg);
+}
+
+.change .nav-icon-bar2 {opacity: 0;}
+
+.change .nav-icon-bar3 {
+  transform: translate(0, -270%) rotate(45deg);
+}
 
 .game-body{
     display: flex;
@@ -69,8 +98,12 @@ $headerfont: 'Rowdies';
 }
 
 .game-task {
-    background-color: $secondary-color;
-    color: $text-color;    
+    background-color: $secondary-color;   
+}
+.game-instructions{
+    color: $title-color;
+    font-family: $headerfont;
+    font-weight:lighter;
 }
 .game-control {
     background-color: $success-color;
