@@ -3,7 +3,7 @@
     <div class="game-title">
       <h1>Game Title</h1>
     </div>
-    <div class="game-nav">
+    <div class="game-nav" hidden>
       <div class="nav-icon" [class.change]="isChanged" (click)="toggleNavIcon()">
         <div class="nav-icon-bar1"></div>
         <div class="nav-icon-bar2"></div>
@@ -14,10 +14,10 @@
   <div class="game-body">
     <div class="game-task game-body-child">
       <div class="game-instructions">
-        <h2>Lese den Vers 3mal laut durch.</h2>
+        <h2>Hier steht dir Aufgabenstellung</h2>
       </div>
       <div class="game-contents">
-
+        <p>Hier steht der Text der zu Lernen ist. Gesamt zum Durchleses, als Lückentext oder als Sonstige Aufgabe.</p>
       </div>
     </div>
     <div class="game-control game-body-child">
